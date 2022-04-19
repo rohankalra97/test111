@@ -30,7 +30,7 @@
 
 /* chat window - message section */
 .message-section-area {
-  background-image: url('https://tinyurl.com/ycavlsec') !important;
+  background-color : black !important;
 }
 
 .message-section-message-row.from-user .message-section-message-bubble-text,
