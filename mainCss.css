@@ -1,1 +1,58 @@
+/* chat icon */
+.minimized-view{
+  background-color: black !important;
+  color : white !important;
+}
 
+.minimized-view-unread-count{
+  border-radius: 5px !important;
+  background-color: #3498db;
+}
+
+/* task box */
+.taskbox-body {
+  border-radius : 0 !important;
+}
+
+.taskbox-body .taskbox-tab {
+  width : 100px !important;
+}
+
+.taskbox-body .taskbox-tasks>.task:hover {
+  background-color: #d0ecff !important;
+}
+
+/* chat window - top header */
+.header{
+  background-color : black !important;
+  color: white !important;
+}
+
+/* chat window - message section */
+.message-section-area {
+  background-image: url('https://tinyurl.com/ycavlsec') !important;
+}
+
+.message-section-message-row.from-user .message-section-message-bubble-text,
+.message-section-message-row.from-business .message-section-message-bubble-text {
+  padding : 10px;
+  font-size : 16px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.fixed-bottom-area  {
+  display: none;
+}
+
+/* chat window - composer */
+.composer, .composer > textarea {
+  background-color : black !important;
+}
+
+.composer > textarea, .composer > textarea::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.composer-icon.right {
+  transform: rotate(-90deg) !important;
+}
